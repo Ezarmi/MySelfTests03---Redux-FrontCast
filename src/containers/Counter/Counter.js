@@ -1,6 +1,6 @@
 import React from "react";
 
-import CounterControl from '../../components/CounterContorol/CounterContorol'
+import CounterControl from '../../components/CounterControl/CounterControl'
 import CounterOutput from '../../components/CounterOutput/CounterOutput'
 
 class Counter extends React.Component{
@@ -51,7 +51,7 @@ class Counter extends React.Component{
                 />
                 <CounterControl
                     label="کاهش ۲"
-                    clicked = {()=>this.counterChangedHandler('sub,2')}
+                    clicked = {()=>this.counterChangedHandler('sub',2)}
                 />
             </div>
         )
